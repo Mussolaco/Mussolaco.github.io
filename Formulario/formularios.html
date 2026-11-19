@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formularios</title>
+        <!-- <META HTTP-EQUIV="REFRESH" CONTENT="1"> -->
+    </head>
+    <body height="100%">
+        <table width="100%" border="0">
+            <tr>
+                <td>
+                    <!-- Formulario de datos personales -->
+                    <form action="http://ncoge.com/phps/formulario.php">
+                       
+                        <fieldset> <legend align="left" >Datos personales:</legend> 
+                        Nombre:
+                        <input type="text" name="nombre">
+                        <br>
+                        Contraseña:
+                        <input type="password" name="apellido">
+                        <br>
+                        Correo:
+                        <input type="text" name="correo">
+                        <br>
+                        Hobbies:
+                        <textarea name="hobbies"></textarea>
+                        </fieldset>
+                   
+                </td>
+                
+                <td>
+
+                        <fieldset>
+                        <legend>Idiomas:</legend>
+                        <!-- Formulario en inglés -->
+                        <b>Inglés</b> 
+                        <input type="radio" name="idiomaI" value="1">1
+                        <input type="radio" name="idiomaI" value="2">2
+                        <input type="radio" name="idiomaI" value="3">3
+                        <input type="radio" name="idiomaI" value="4">4
+                        <input type="radio" name="idiomaI" value="5">5
+                        <br>
+                        <b>Valenciano</b>
+                        <!-- Formulario en Valenciano -->
+                        <input type="radio" name="idiomaV" value="1">1
+                        <input type="radio" name="idiomaV" value="2">2
+                        <input type="radio" name="idiomaV" value="3">3
+                        <input type="radio" name="idiomaV" value="4">4
+                        <input type="radio" name="idiomaV" value="5">5
+                        <br>
+                        <b>Alemán</b>
+                        <!-- Formulario en Alemán -->
+                        <input type="radio" name="idiomaA" value="1">1
+                        <input type="radio" name="idiomaA" value="2">2
+                        <input type="radio" name="idiomaA" value="3">3
+                        <input type="radio" name="idiomaA" value="4">4
+                        <input type="radio" name="idiomaA" value="5">5
+                        </fieldset>
+                    
+                </td>
+            </tr>
+            
+            <tr>
+                <td>
+                    <!-- Reiniciar formulario -->
+                    <input type="reset" name="reiniciar" value="Reiniciar formulario" >
+
+                    <!--Envio del formulario-->
+                    <input width="100em" type="image" src="Enviar.png" alt="Enviar formulario" name="enviar_todo"                   
+                </td>
+                <td>
+                   
+                        <fieldset align="center">
+                            <legend align="left" >Domino los siguientes programas:</legend>
+                                <!-- Checkbox writer -->
+                                Writer
+                                <input type="checkbox" name="programasWriter" value="Writer">
+                                <!-- Checkbox calc -->
+                                Calc
+                                <input type="checkbox" name="programasCalc" value="Calc">
+                                <br>
+                                <!-- Checkbox base -->
+                                Base
+                                <input type="checkbox" name="programasBase" value="Base">
+                                <!-- Checkbox impress -->
+                                Impress
+                                <input type="checkbox" name="programasImp" value="Impress">
+                        </fieldset>
+                    </form>                        
+                
+                </td>
+            </tr>
+            
+            <tr>
+            
+                <td></td>
+                <td>
+                    
+                        <fieldset>
+                            <legend>Trabajo con el siguiente Sistema Operativo:</legend>
+                        
+                        <select name="Sistemas" id="SistOpe">
+                            <option value="Linux">Linux</option>
+                            <option value="Windows">Windows</option>
+                            <option value="otro">Otros...</option>
+                        </select>
+                        
+                        </fieldset>
+                    
+                
+                </td>          
+           
+            </tr>
+            </form>
+        </table>
+
+    </body>
+</html>
